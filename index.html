@@ -1,44 +1,44 @@
 
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
   <body>
-    <div class="bg" style="width:100%"></div>
+    <div class="bg" style="width:100%;">
+    <br></div>
   </body>
   <style>
 
-    @media only screen and (max-width: 374px) {
+    @media only screen and (max-width: 768px) {
       .bg {
         background-image: url("/landing/Mobile.png"); 
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: auto;
+            background-position: top;
+            background-size: contain;
+            height: 100vh;
       }
     }
     
-     @media only screen and (max-width: 1023px) {
+     @media only screen and (min-width:768px) and (max-width: 1023px) {
       .bg {
         background-image: url("/landing/Tablet.png"); 
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: auto;
+            background-position: top;
+            background-size: contain;
+            height: 100vh;
       }
     }
     
     @media only screen and (min-width: 1024px) {
       .bg {
-        background-image: url("/landing/Desktop.png"); 
+             background-image: url("/landing/Desktop.png"); 
              background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
+             background-position: top;
+            background-size: contain;
+      height: 100vh;
       }
     }
     
-    @media only screen and (min-width: 1024px) {
-      body {
-        background-image: url("/landing/Desktop.png"); 
-            background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-      }
-    }
+ 
   </style>
 </html>
